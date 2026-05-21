@@ -1,0 +1,19 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My DevOps Website</h1>
+
+    <h2>Student: Maryam Shafique</h2>
+
+    <p>This is a simple DevOps project using AWS, GitHub and CI/CD.</p>
+
+</body>
+</html>
+```
