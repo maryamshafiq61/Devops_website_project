@@ -23,5 +23,4 @@ steps:
       key: ${{ secrets.EC2_SSH_KEY }}
       source: "index.html,style.css"
       target: "/var/www/html"
-```
 
