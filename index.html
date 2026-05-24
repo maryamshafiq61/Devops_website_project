@@ -1,19 +1,126 @@
-```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DevOps Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Bootcamp Assignment - SDC-P01</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a); /* Professional Dark Blue DevOps Theme */
+            color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
+        .card {
+            background: #1e293b;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 650px;
+            width: 90%;
+            border-top: 8px solid #38bdf8; /* Cyan accent border */
+        }
+
+        h1 {
+            color: #38bdf8;
+            font-size: 2.6rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #334155;
+            margin: 25px 0;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.05rem;
+            color: #cbd5e1;
+            text-align: justify;
+        }
+
+        .intro-title {
+            font-weight: bold;
+            color: #38bdf8;
+            display: block;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        .tech-tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: #334155;
+            color: #38bdf8;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 0.85rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+    </style>
+</head>
 <body>
 
-    <h1>My DevOps Website - CI/CD Working Successfully</h1>
+    <div class="card">
+        
+        <h1>Maryam Shafiq</h1> 
+        
+        <h3>SOCH DevOps & Cloud Computing Bootcamp</h3>
+        
+        <hr>
+        
+        <p>
+            <span class="intro-title">🚀 Automated Website Deployment (SDC-P01)</span>
+            This is a real-world DevOps project where I have successfully hosted and automated a web application. 
+            I configured an <strong>AWS EC2 Instance</strong> running Ubuntu Linux, managed permissions using <strong>AWS IAM</strong>, and installed <strong>Nginx</strong> to serve the website files. 
+            To achieve full automation, I implemented a CI/CD pipeline using <strong>GitHub Actions</strong>. Whenever new code is pushed to this GitHub repository, the pipeline automatically triggers, authenticates via SSH, and deploys the updated website files straight to the production server without any manual intervention.
+        </p>
 
-    <h2>Student: Maryam Shafique - Bootcamp: DevOps & Cloud Computing</h2>
-
-    <p>This is a simple DevOps project using AWS, GitHub and CI/CD Pipeline.</p>
+        <div class="tech-tags">
+            <span class="tag">AWS EC2</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">CI/CD Pipeline</span>
+            <span class="tag">Nginx</span>
+            <span class="tag">Ubuntu Linux</span>
+        </div>
+        
+        <div class="footer">Assignment Project — SDC-P01</div>
+    </div>
 
 </body>
 </html>
-```
